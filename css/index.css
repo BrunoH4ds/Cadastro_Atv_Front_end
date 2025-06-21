@@ -1,0 +1,107 @@
+body {
+  background-image: url("https://marketplace.canva.com/EAFzIrT_NdY/1/0/1600w/canva-colorful-minimalist-space-desktop-wallpaper-a3B7oPWJLWo.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  align-items: center;
+}
+
+h2 {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.field label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.field input,
+.field textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 96.7%;
+  background-color: transparent;
+  color: white;
+}
+
+.field input::placeholder{
+  color: white;
+}
+
+.field input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.password-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.password-strength {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  margin: 10px 0 10px 0;
+  align-items: center ;
+}
+
+.visibility-btn{
+  background-color: transparent;
+  padding: 0;
+  font-size: 23px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.visibility-btn:hover{
+  background-color: transparent;
+}
+
+.stats-password {
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+
+.force-password {
+  height: 8px;
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.submit-btn {
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.message {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1909/Red_Nebula_Galaxy_2019_Universe_Desktop_1366x768.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+i{
+  padding: 10px 15px 10px 15px;
+  font-size: 4rem;
+  color: orangered;
+  border-radius: 100%;
+  border: 2px solid orangered;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 1.5rem 0;
+}

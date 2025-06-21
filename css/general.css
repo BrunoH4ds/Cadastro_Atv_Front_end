@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 50px;
+  border-radius: 8px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(171, 171, 171, 0.458);
+  width: 50%;
+  backdrop-filter: blur(2.5px);
+  transition: all ease-in-out 300ms;
+}
+
+.container:hover {
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+button:hover{
+  background-color: rgb(219, 58, 0);
+}
